@@ -1,5 +1,4 @@
 • bot-wa by Shuichi
-
  Cara install bot:
 
 $ pkg install git
@@ -10,19 +9,4 @@ $ git clone https://github.com/Shuichi126/bot-whatsapp
 
 $ cd bot-whatsapp
 
-$ pkg install wget
-
-$ pkg install ffmpeg
-
-$ pkg install nodejs
-
-$ npm i -g cwebp
-
-$ npm i -g ytdl
-
-$ npm i
-
-$ npm i got
-
-$ node index.js
-
+$ npm -y init && npm i wget ffmpeg nodejs cwebp ytdl qrcode-terminal moment cheerio got axios node-fetch urlencode image-to-base64 @adiwajshing/baileys && node .
